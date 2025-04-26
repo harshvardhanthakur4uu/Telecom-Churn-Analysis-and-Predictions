@@ -65,3 +65,83 @@ Create a new table reference for prod_Services
 1.       Unpivot services columns
 
 2.       Rename Column – Attribute >> Services & Value >> Status
+
+## STEP 3 – Power BI Measure
+
+        Total Customers = Count(prod_Churn[Customer_ID])
+
+        New Joiners = CALCULATE(COUNT(prod_Churn[Customer_ID]), prod_Churn[Customer_Status] = “Joined”)
+
+        Total Churn = SUM(prod_Churn[Churn Status])
+
+        Churn Rate = [Total Churn] / [Total Customers]
+
+ ## STEP 4 – Power BI Visualization
+Summary Page
+1.  Top Card
+  a.       Total Customers
+  b.       New Joiners
+  c.       Total Churn
+  d.       Churn Rate%
+
+2.  Demographic
+  a.       Gender – Churn Rate
+  b.       Age Group – Total Customer & Churn Rate
+
+3.  Account Info
+  a.       Payment Method – Churn Rate
+  b.       Contract – Churn Rate
+  c.       Tenure Group – Total Customer & Churn Rate
+
+4.  Geographic
+  a.       Top 5 State – Churn Rate
+
+5.  Churn Distribution
+  a.       Churn Category – Total Churn
+  b.       Tooltip : Churn Reason – Total Churn
+
+7.  Service Used
+  a.       Internet Type – Churn Rate
+  b.       prod_Service >> Services – Status – % RT Sum of Churn Status
+
+Churn Reason Page (Tooltip)
+1.  Churn Reason – Total Churn
+
+STEP 5 – Predict Customer Churn
+
+For predicting customer churn, widely used Machine Learning algorithm called RANDOM FOREST is used for our model.
+
+What is Random Forest?A random forest is a machine learning algorithm that consists of multiple decision trees. Each decision tree is trained on a random subset of the data and features. The final prediction is made by averaging the predictions (in regression tasks) or taking the majority vote (in classification tasks) from all the trees in the forest. This ensemble approach improves the accuracy and robustness of the model by reducing the risk of overfitting compared to using a single decision tree.
+
+## STEP 6 – Power BI Visualization of Predicted Data
+
+Import CSV Data or Load Predicted data in SQL server & connect to server
+
+ 
+Create Measures
+
+    Count Predicted Churner = COUNT(Predictions[Customer_ID]) + 0
+    Title Predicted Churners = “COUNT OF PREDICTED CHURNERS : ” & COUNT(Predictions[Customer_ID])
+
+ 
+
+Churn Prediction Page (Using New Predicted Data)
+1.  Right Side Grid
+  a.       Customer ID
+  b.       Monthly Charge
+  c.       Total Revenue
+  d.       Total Refunds
+  e.       Number of Referrals
+
+2.  Demographic
+  a.       Gender – Churn Count
+  b.       Age Group – Churn Count
+  c.       Marital Status – Churn Count
+
+3.  Account Info
+  a.       Payment Method – Churn Count
+  b.       Contract – Churn Count
+  c.       Tenure Group – Churn Count
+
+4.  Geographic
+  a.       State – Churn Count
