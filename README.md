@@ -7,7 +7,6 @@ In today’s competitive business environment, retaining customers is crucial fo
 ## Project Target
 
 Create an entire ETL process in a database & a Power BI dashboard to utilize the Customer Data and achieve below goals:
-
     Visualize & Analyse Customer Data at below levels
     Demographic
     Geographic
@@ -16,10 +15,9 @@ Create an entire ETL process in a database & a Power BI dashboard to utilize the
     Study Churner Profile & Identify Areas for Implementing Marketing Campaigns
     Identify a Method to Predict Future Churners
 
- 
 
 ## Metrics & KPI's Required
-
-    Total Customers
-    Total Churn & Churn Rate
-    New Joiner
+   Total Customers
+   Total Churn
+   Churn Rate
+   New Joiners
