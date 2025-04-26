@@ -6,7 +6,7 @@ In today’s competitive business environment, retaining customers is crucial fo
 
 ## Project Target
 Create an entire ETL process in a database & a Power BI dashboard to utilize the Customer Data and achieve below goals:
-1. Visualize & Analyse Customer Data at below levels
+1. Visualize & Analyse Customer Data
 2. Demographic
 3. Geographic
 4. Payment & Account Info
