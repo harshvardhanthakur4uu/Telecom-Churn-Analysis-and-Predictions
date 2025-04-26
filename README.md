@@ -12,11 +12,11 @@ Create an entire ETL process in a database & a Power BI dashboard to utilize the
 4. Payment & Account Info
 5. Services
 6. Study Churner Profile & Identify Areas for Implementing Marketing Campaigns
-7. Identify a Method to Predict Future Churners
+7. Identify a Method to Predict Future Churners Using Machine Learning
 
 
 ## Metrics & KPI's Required
-   Total Customers
-   Total Churn
-   Churn Rate
-   New Joiners
+1. Total Customers
+2. Total Churn
+3. Churn Rate
+4. New Joiners
