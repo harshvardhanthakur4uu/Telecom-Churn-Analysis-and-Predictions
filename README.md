@@ -84,25 +84,25 @@ Summary Page
   c. ChurnChurn <br>
   d. Rate% <br>
 
-3.  Demographic
-a.       Gender – Churn Rate
- b.       Age Group – Total Customer & Churn Rate
+3.  Demographic<br>
+  a. Gender – Churn Rate<br>
+  b. Age Group – Total Customer & Churn Rate<br>
 
-4.  Account Info
-  a.       Payment Method – Churn Rate
-  b.       Contract – Churn Rate
-  c.       Tenure Group – Total Customer & Churn Rate
+4.  Account Info<br>
+  a. Payment Method – Churn Rate<br>
+  b. Contract – Churn Rate<br>
+  c. Tenure Group – Total Customer & Churn Rate<br>
 
-5.  Geographic
-  a.       Top 5 State – Churn Rate
+5.  Geographic<br>
+  a. Top 5 State – Churn Rate<br>
 
-6.  Churn Distribution
-  a.       Churn Category – Total Churn
-  b.       Tooltip : Churn Reason – Total Churn
+6.  Churn Distribution<br>
+  a. Churn Category – Total Churn<br>
+  b. Tooltip : Churn Reason – Total Churn<br>
 
-7.  Service Used
-  a.       Internet Type – Churn Rate
-  b.       prod_Service >> Services – Status – % RT Sum of Churn Status
+7.  Service Used<br>
+  a. Internet Type – Churn Rate<br>
+  b. prod_Service >> Services – Status – % RT Sum of Churn Status<br>
 
 Churn Reason Page (Tooltip)
 1.  Churn Reason – Total Churn
@@ -126,22 +126,22 @@ Create Measures
  
 
 Churn Prediction Page (Using New Predicted Data)
-1.  Right Side Grid
-  a.       Customer ID
-  b.       Monthly Charge
-  c.       Total Revenue
-  d.       Total Refunds
-  e.       Number of Referrals
+1.  Right Side Grid<br>
+  a. Customer ID<br>
+  b. Monthly Charge<br>
+  c. Total Revenue<br>
+  d. Total Refunds<br>
+  e. Number of Referrals<br>
 
-2.  Demographic
-  a.       Gender – Churn Count
-  b.       Age Group – Churn Count
-  c.       Marital Status – Churn Count
+2.  Demographic<br>
+  a. Gender – Churn Count<br>
+  b. Age Group – Churn Count<br>
+  c. Marital Status – Churn Count<br>
 
-3.  Account Info
-  a.       Payment Method – Churn Count
-  b.       Contract – Churn Count
-  c.       Tenure Group – Churn Count
+3.  Account Info<br>
+  a. Payment Method – Churn Count<br>
+  b. Contract – Churn Count<br>
+  c. Tenure Group – Churn Count<br>
 
-4.  Geographic
-  a.       State – Churn Count
+4.  Geographic<br>
+  a. State – Churn Count<br>
