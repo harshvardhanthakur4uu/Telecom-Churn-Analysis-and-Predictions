@@ -78,13 +78,13 @@ Create a new table reference for prod_Services
 
  ## STEP 4 – Power BI Visualization
 Summary Page
-1.  Top Card
-a.  Total Customers
-b.  New Joiners
-c.  Total Churn
-d.  Churn Rate%
+1.  Top Card <br>
+  a. Total Customers <br>
+  b. New JoinersTotal <br>
+  c. ChurnChurn <br>
+  d. Rate% <br>
 
-2.  Demographic
+3.  Demographic
 a.       Gender – Churn Rate
  b.       Age Group – Total Customer & Churn Rate
 
